@@ -6,7 +6,7 @@ OSS 结合 Alfred WorkFlow 来上传文件
 - 使用 pipenv 来管理 python 版本和包依赖
 - 依赖两个包 oss2 和 pyobjc
 
-PS：**pipenv 不是必须的**
+pipenv 不是必须的
 
 ## 初始化
 
@@ -45,3 +45,14 @@ cd _target_dir_
 ```
 
 更多见 [OSSUpload.alfredworkflow](./OSSUpload.alfredworkflow)
+
+## 预览
+
+选择图片复制，然后 ⌘ + ⌥ + U 即可上传
+![preview1](./screenshots/preview1.png)
+
+上传成功后，会自动复制到剪贴板并通知提示
+![preview3](./screenshots/preview3.png)
+
+未复制文件时提示
+![preview2](./screenshots/preview2.png)
